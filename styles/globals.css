@@ -1,5 +1,10 @@
 html,
 body {
+  width: 100%;
+}
+body {
+  font-size: 1rem;
+  background-color: #fafafa;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +18,50 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.ico.cover,
+.bgi.cover {
+  background-size: cover;
+}
+
+.row,
+.col,
+.content {
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.none {
+  display: none;
+}
+
+.center {
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
