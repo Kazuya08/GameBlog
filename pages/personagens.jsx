@@ -27,6 +27,7 @@ const personagens = (props) => {
             src="https://i.pinimg.com/originals/ef/a9/3d/efa93d56b6343e76adb27d841e09932a.jpg"
             alt="jett-valorant"
             width="400"
+            className="widthmobile"
           />
         </div>
       </main>

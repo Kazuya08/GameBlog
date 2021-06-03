@@ -3,7 +3,7 @@ import React from "react";
 const header = () => {
   return (
     <nav
-      className="ico cover"
+      className="ico cover mobilecenter"
       style={{ backgroundColor: "#ff4655", marginBottom: "40px" }}
     >
       <div

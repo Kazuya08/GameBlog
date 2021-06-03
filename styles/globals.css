@@ -65,3 +65,33 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 800px) {
+  .mobilecol {
+    min-width: calc(100% / 1);
+  }
+
+  .mobilecenter {
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .widthmobile {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    font-size: 96%;
+  }
+  .ocult {
+    display: none;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .none.show {
+    display: initial; /*block*/
+  }
+}
